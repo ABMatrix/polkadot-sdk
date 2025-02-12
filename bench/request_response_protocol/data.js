@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739345194489,
+  "lastUpdate": 1739347969009,
   "repoUrl": "https://github.com/paritytech/polkadot-sdk",
   "entries": {
     "request_response_protocol": [
@@ -11447,6 +11447,114 @@ window.BENCHMARK_DATA = {
             "name": "request_response_protocol/litep2p/serially/16MB",
             "value": 2482403153,
             "range": "± 15653946",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pgherveou@gmail.com",
+            "name": "PG Herveou",
+            "username": "pgherveou"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "42a61672c11e61b241deb843bc7fca7fc824befe",
+          "message": "[pallet-revive] Add tracing support (2/2) (#7167)\n\nAdd debug endpoint to eth-rpc for capturing a block or a single\ntransaction traces\n\nSee:\n-  PR #7166\n\n---------\n\nCo-authored-by: Alexander Theißen <alex.theissen@me.com>\nCo-authored-by: command-bot <>\nCo-authored-by: Yuri Volkov <0@mcornholio.ru>\nCo-authored-by: Maksym H <1177472+mordamax@users.noreply.github.com>\nCo-authored-by: Santi Balaguer <santiago.balaguer@gmail.com>\nCo-authored-by: Dónal Murray <donal.murray@parity.io>\nCo-authored-by: cmd[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: xermicus <cyrill@parity.io>",
+          "timestamp": "2025-02-12T07:23:49Z",
+          "tree_id": "920fb4c8be27dfd7164ac87f04a0c31149cad777",
+          "url": "https://github.com/paritytech/polkadot-sdk/commit/42a61672c11e61b241deb843bc7fca7fc824befe"
+        },
+        "date": 1739347951849,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "request_response_protocol/libp2p/serially/64B",
+            "value": 18778763,
+            "range": "± 160761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/libp2p/serially/512B",
+            "value": 19252836,
+            "range": "± 233507",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/libp2p/serially/4KB",
+            "value": 20368484,
+            "range": "± 231992",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/libp2p/serially/64KB",
+            "value": 24776848,
+            "range": "± 275693",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/libp2p/serially/256KB",
+            "value": 56806160,
+            "range": "± 1069607",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/libp2p/serially/2MB",
+            "value": 363880796,
+            "range": "± 6594066",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/libp2p/serially/16MB",
+            "value": 2661187163,
+            "range": "± 82498980",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/litep2p/serially/64B",
+            "value": 14840072,
+            "range": "± 236240",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/litep2p/serially/512B",
+            "value": 15210417,
+            "range": "± 145462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/litep2p/serially/4KB",
+            "value": 15575510,
+            "range": "± 166361",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/litep2p/serially/64KB",
+            "value": 20051287,
+            "range": "± 261185",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/litep2p/serially/256KB",
+            "value": 51422697,
+            "range": "± 1296242",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/litep2p/serially/2MB",
+            "value": 334954253,
+            "range": "± 6649211",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "request_response_protocol/litep2p/serially/16MB",
+            "value": 2526537028,
+            "range": "± 25777763",
             "unit": "ns/iter"
           }
         ]
