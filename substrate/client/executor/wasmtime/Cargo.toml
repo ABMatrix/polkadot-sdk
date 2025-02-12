@@ -31,7 +31,7 @@ sp-wasm-interface = { features = ["wasmtime"], workspace = true, default-feature
 wasmtime = { features = [
 	"cache",
 	"cranelift",
-	"jitdump",
+	#"jitdump",
 	"parallel-compilation",
 	"pooling-allocator",
 ], workspace = true }
